@@ -1,0 +1,373 @@
+/* Navbar */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.center-cropped {
+  object-fit: cover; 
+  object-position: center; 
+  height: 190px;
+  width: 107%;
+  filter: brightness(50%);
+}
+
+.centered {
+  position: absolute;
+  top: 50;
+  left: 40%;
+  transform: translate(-20%, 30%);
+  color: white;
+  
+
+}
+select{
+  width: 90%; 
+  height:25px;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: none;
+  border: solid 1px rgb(155, 155, 155);
+  margin-bottom: 5px;
+}
+
+.opti{
+  width: 50% !important; 
+  height:30px !important;
+  border-radius: 0px !important;
+  padding-left: 10px;
+  border: none;
+  border: solid 1px rgb(155, 155, 155);
+  margin-bottom: 5px;
+  margin-left: 0px !important;
+  font-size: 10pt !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+  background-color: black !important;
+  border: none;
+  border: 1px solid black;
+  margin-right: -15px;
+  border-radius: none !important;
+}
+
+thead th{
+  background-color: black !important;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 1.5rem !important;
+  
+}
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+
+td{
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  background-color: white;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  text-align: center;
+  font-size: 11pt;
+
+}
+
+h3{
+  margin-top: 90px;
+  font-family: 'Bebas Neue', cursive; 
+  color: white;
+ 
+}
+
+h6{
+  margin-top: -7px;
+  color: white;
+
+}
+
+.navbar{
+  position: relative;
+  z-index: 1;
+}
+
+
+.formsignup {
+  margin: auto;
+  margin-top: 4%;
+  background-color: white;
+  width: 42%;
+  border-radius: 25px;
+  display: none;
+  position: fixed;
+  bottom: 0;
+
+
+}
+
+
+
+/* info panel */
+.info-panel{
+  background-color: salmon;
+}
+
+
+/* Jumbotron */
+.jumbotron{
+  
+  background-size: cover;
+  background-position-y: 30%;
+  height: 300px;
+  text-align: center;
+}
+
+.jumbotron .container{
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 50.5%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6));
+  position: absolute;
+  top:0;
+}
+
+
+
+/* info panel */
+.info-panel{
+  background-color: salmon;
+}
+
+.judul{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 14pt;
+}
+.bab{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18pt;
+  color: black;
+}
+.card-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 11pt;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+/* The popup form - hidden by default */
+.modal-content  {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 20px !important; 
+}
+
+.btn-dark {
+
+  background-color: black;
+  color: #FFF;
+  height: 30px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 9pt;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+.btntabel {
+  margin-bottom: 0px;
+
+}
+
+.row{
+   margin-bottom: 8px;
+}
+.tabel {
+  width: 90%;
+}
+
+input, textarea  {
+  border-radius: 20px;
+  border: none;
+  border: solid 1px rgb(155, 155, 155);
+  padding-left: 10px;
+}
+
+
+/* Add styles to the form container */
+.form-container {
+max-width: 300px;
+padding: 10px;
+background-color: white;
+}
+
+
+
+
+
+
+
+
+/* Desktop Version */
+@media (max-width: 700px){
+  .list{
+      margin-top: 110px;
+      
+  }
+  .tombollgn{
+    display: none;
+  }
+  .tombollgn:hover{
+    display: none;
+  }
+.navbar-only
+  {
+      margin-top: 140px;
+      font-family: 'Viga', sans-serif;
+      font-size: 22px;
+      color: black !important;
+  }
+  .nav-link{
+      font-family: 'Roboto', sans-serif;
+      
+  }
+
+
+  
+}
+
+
+
+
+@media (min-width: 700px){
+  h3{
+    font-family: 'Bebas Neue', cursive; 
+    color: white;
+    font-size: 50px;
+    margin-top: 5px;
+  }
+  
+  h6{
+    margin-top: -7px;
+    color: white;
+
+  }
+  /* utility button */
+  .login{
+    margin-top: -7%;
+    margin-right: -10%;
+    
+  }
+  
+  .tombol{
+      font-size: 13px;
+      border-radius: 25px;
+      background-color: transparent;
+      border-color: white;
+      width: 110px;
+      height: 40px;
+      text-align: center;
+     
+            
+      
+  }
+  .tombol:hover{
+      
+  background-color: rgba(0,0,0,0.6);
+  border-color: #ffdc73;
+  }
+
+  .tombollgn{
+    
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: transparent;
+  
+    width: 65px;
+
+    text-align: auto;
+          
+    
+}
+.tombollgn:hover{
+    
+background-color: rgba(0,0,0,0.6);
+border-color: rgb(0, 255, 128);
+}
+ 
+  .list{
+      margin-left: 3%;
+      margin-right: 3%;
+      
+  }
+  .box-shadow{
+      border-radius:0px;
+      border: 0px;
+
+      border-bottom: 1px solid gray;
+  }
+  .box-shadow:hover{
+      border-radius:0px;
+      box-shadow: 5px 5px 5px grey;
+  }
+  .navbar-only{
+      display: none;
+  }
+  .navbar-brand, .nav-link{
+      color: white !important;
+      
+  }
+
+  .nav-link{
+     
+      margin-right: 26px;
+      font-family: 'Open Sans', sans-serif;
+      
+      
+  }
+
+
+  .tblhome{
+      margin-left: 20px;
+  }
+  .navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+  }
+
+  .nav-link:hover::after{
+      content: '';
+      display: block;
+      /* border-bottom: 2px solid  rgb(0, 255, 128); */
+      width: 50%;
+      margin: auto;
+      padding: 6  px;
+      margin-bottom: -50px;
+  }
+
+  .jumbotron{
+      margin-top: -70px;
+      height: 400px;
+  }
+
+
+  .logo{
+      margin-top: 75px;
+  }
+
+
+  
+
+
+}
