@@ -10,6 +10,6 @@ Terima kasih, semoga membantu teman teman
 
 
 Dirancang oleh
-Choaz Bone Randa Lembang (Front-end)
-Rehuel Paskahrio (Back-end)
+Choaz Bone Randa Lembang (Front-end),
+Rehuel Paskahrio (Back-end), dan
 Duan Je Martiko M. (Back-end)
